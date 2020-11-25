@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         //int numberOfCoffees = 2;
         //display(numberOfCoffees);
         displayPrice(quantity*2);
+        displayMessage("Thank you very much!");
     }
 
     public void display (int number){
@@ -44,5 +45,9 @@ public class MainActivity extends AppCompatActivity {
         if(quantity>0){
             quantity-=1;}
         display(quantity);
+    }
+    private void displayMessage(String message) {
+        TextView priceTextView = (TextView) findViewById(R.id.price_text_view);
+        priceTextView.setText(message);
     }
 }
