@@ -23,7 +23,6 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            ss
             android:layout_margin="8dp"
             android:minWidth="0dp"
             android:minHeight="0dp"
